@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+    <title>SUDOKU MADE BY HK</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for the back button */
+        button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: fixed; /* Ensure the button stays fixed */
+    top: 10px; /* Position 10px from the top */
+    right: 20px; /* Position 10px from the right */
+    z-index: 1; /* Ensure the button is above other content */
+}
+
+
+        button:hover {
+            background-color: #124715;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="back-button" onclick="goBack()">Back</button>
+    <h1>SUDOKU</h1>
+    <hr>
+    <h3>ERROR</h3>
+    <h2 id="errors">0</h2>
+    <!------- 9x9 board ------->
+    <div id="board"></div>
+    <br>
+    <div id="digits"></div>
+    <button class="back-button" onclick="goBack()">Back</button>
+    <script src="script.js"></script>
+    <script>
+        // Function to go back
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sudoko Created By HK</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+        /* Style for the video container */
+        .video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+            /* Ensure the video is behind other content */
+        }
+
+        /* Style for the video element */
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            /* Ensure the video is behind other content */
+        }
+
+
+        h1 {
+            color: #fff;
+            margin-top: 50px;
+            z-index: 1;
+            /* Ensure the text is above the video */
+        }
+
+        img {
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+            /* Ensure the image is above the video */
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            z-index: 1;
+            /* Ensure the button is above the video */
+        }
+
+        button:hover {
+            background-color: #124715;
+        }
+
+        /* Style for the "Created by Hemant Kumar" text */
+        .created-by {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            z-index: 1;
+            /* Ensure the text is above the video */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Video background -->
+    <div class="video-container">
+        <video autoplay muted loop id="video-background">
+            <source src="background-video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Content -->
+    <h1 style="margin-top: -1px;">Sudoku Game</h1>
+
+    <img src="sudoku.jpg" alt="Sudoku Image" width="300">
+    <br>
+    <button onclick="goToDifficultySelection()">Start Game</button>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+    <!-- "Created by Hemant Kumar" text -->
+    <div class="created-by">Created by Hemant Kumar</div>
+</body>
+
+</html>
