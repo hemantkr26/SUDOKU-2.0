@@ -38,7 +38,12 @@ Welcome to the Sudoku Game! This project provides a complete Sudoku gaming exper
 ## Contributing
 
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
+![Screenshot (339)](https://github.com/hemantkr26/SUDOKU-2.0/assets/142200426/0d33db6a-8018-4447-827c-af620d60baeb)
 
-https://github.com/hemantkr26/SUDOKU-2.0/assets/142200426/926eb75b-3afe-4b1e-b903-0c47a7050a06
+![Screenshot (340)](https://github.com/hemantkr26/SUDOKU-2.0/assets/142200426/ee3abd37-a94e-4dad-be22-204097c6043e)
+
+![Screenshot (341)](https://github.com/hemantkr26/SUDOKU-2.0/assets/142200426/999dd49e-24d2-4bbf-a441-da047a210f6b)
+
+
 
 
