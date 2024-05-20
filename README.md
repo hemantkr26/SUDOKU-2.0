@@ -1,4 +1,7 @@
 # SUDOKU-2.0
+
+https://sudoko-2-hk.netlify.app/
+
 Welcome to the Sudoku Game! This project provides a complete Sudoku gaming experience with interactive features and a user-friendly interface.
 
 ## How to Play
